@@ -346,3 +346,70 @@ body {
   height: 100vw;
 }
 }
+
+@media screen and (width: 912px) and (height: 1368px) {
+  /* Your CSS rules for this screen size go here */
+  /* For example, you can change font size, layout, or other styles */
+
+  .B{
+    margin-top: 7rem;
+  }
+  .footer{
+    height: 50vw;
+  }
+}
+
+@media screen and (width: 280px) and (height: 653px) {
+  /* Your CSS rules for this screen size go here */
+  /* For example, you can change font size, layout, or other styles */
+
+  .B{
+    margin-top: 7rem;
+  }
+  .main-2{
+    height: 100vh;
+  }
+  .footer{
+    height: 100vw;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1250px) {
+  /* Your CSS rules for this screen width range go here */
+  /* Customize styles for screens with a width between 799px and 1200px */
+  .B{
+    margin-top:7rem;
+    width: 100%;
+  }
+  .A{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  /* Your CSS rules for this screen width range go here */
+  /* Customize styles for screens with a width between 799px and 1200px */
+  .B{
+    margin-top:7rem;
+  }
+  .footer{
+    height: 80%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin: auto;
+  }
+  /* .footer div{
+    gap: 10%;
+  } */
+  .f{
+    height: 50px;
+  }
+  .f2,.f2{
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: column;
+  }
+  #tr{
+    font-size: x-small;
+  }
+
+}
